@@ -4,10 +4,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 10%;
   height: 100vh;
 }
 
 .Text {
   font-size: 30px;
+}
+
+.img {
+  width: 650px;
+  height: 450px;
+}
+
+@media (max-width: 500px) { 
+  .Text {
+    font-size: 16px;
+  }
+
+  .img {
+    width: 450px;
+    height: 250px;
+  }
 }

@@ -4,17 +4,28 @@
   font-style: normal;
 }
 
-html, body {
-  margin: 0;
-  height: 100%;
-}
-
 body {
   margin: 0;
   font-family: 'pacifico', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(#22c1c3, #fdbb2d);
+  /* background-size: 400%;
+  background-image: linear-gradient(45deg, #ee7752, #fdbb2d, #22c1c3, #23d5ab);
+	animation: gradient 15s ease infinite; */
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
